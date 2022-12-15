@@ -10,4 +10,4 @@ app.get('/', async(req, res)=>{
 })
 
 app.listen(PORT)
-console.log('server port: 3001')
+console.log('server in port: 3001')

@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "peliculas-back"
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
   },
   "keywords": [],
   "author": "",
@@ -13,12 +14,9 @@
     "mysql2": "^2.3.3"
   },
   "dependencies": {
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "nodemon": "^2.0.20"
   },
-  "type": "module",
-  "scripts": {
-    "dev": "nodemon src/app.js",
-    "start": "node src/app.js"
-  }
+  "type": "module"
 }
